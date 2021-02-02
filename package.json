@@ -1,0 +1,16 @@
+{
+  "name": "frontendweb",
+  "version": "1.0.0",
+  "description": "Proyects Frontend",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frontend",
+    "javascript",
+    "web"
+  ],
+  "author": "Chris04",
+  "license": "MIT"
+}
