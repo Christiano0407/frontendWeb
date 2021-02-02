@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-one: hsl(0, 0%, 100%);
+    --color-Two: hsl(0, 0%, 0%);
+    --Dark-Gray: hsl(0, 0%, 55%);
+   --very-Dark: hsl(0, 0%, 41%);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: josefin-sans,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
