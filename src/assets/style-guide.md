@@ -1,6 +1,3 @@
-# frontendWeb
-Frontend Web proyects. 
-
 # Front-end Style Guide
 
 ## Layout
