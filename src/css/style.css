@@ -81,4 +81,62 @@ body {
     transform: scaleX(1);
   }
 
+  .burger {
+      display: none;
+      cursor: pointer;
+  }
+  .burger > div {
+      width: 30px;
+      height: 3px;
+      background-color: hsl(0, 0%, 100%);
+      margin: 5px;
+      transition: all 0.3s ease;
+  }
+  .toggle .line-1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .toggle .line-3 {
+      opacity: 0;
+  }
+  .toggle .line-3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .hero-text {
+      width: 30rem;
+      font-size: 3.2rem;
+      border: 1px solid hsl(0, 0%, 100%);
+      padding: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      transform: translateY(20vh);
+      line-height: 1.5;
+     /*  animation: fadeIn 3s ease-in 1s forwards; */
+  }
+
+  @keyframes fadeIn {
+      from {
+      transform: translateY(-40rem);
+      }
+      to {
+      transform: translateY(initial);
+      }
+  }
  /*  //main */
+ .main {
+     margin-top: 8rem;
+     width: 100%;
+ }
+ .interactive {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     margin-bottom: 8rem;
+ }
+ .interactive__image-container {
+     width: 100rem;
+ }
+ .interactive__image-container img {
+     max-width: 100%;
+     height: auto;
+ }
