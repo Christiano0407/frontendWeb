@@ -140,3 +140,35 @@ body {
      max-width: 100%;
      height: auto;
  }
+ .interactive__content {
+     background-color: hsl(0, 0%, 100%);
+     padding: 3rem 0 0 5rem;
+     align-self: flex-end;
+     width: 100%;
+     position: relative;
+     left: -10rem;
+ }
+ .interactive__content .virtual {
+     font-size: 3rem;
+     text-transform: uppercase;
+     letter-spacing: 0.2rem;
+     font-family: josefin-sans,sans-serif;
+     color: hsl(0, 0%, 0%);
+     padding: 2rem 0;
+ }
+ .interactive__content p {
+     font-size: 1.2rem;
+ }
+ .interactive__content:nth-child(2){
+     color: hsl(0, 0%, 55%);
+ }
+
+/*  //grid-title */
+.grid-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0 0 5rem 0;
+}
