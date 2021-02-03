@@ -30,14 +30,55 @@ body {
 .header {
     width: 100%;
     height: 100vh;
-    color: var(--color-one);
-}
-#bg-hero {
-    background-image: url(../assets/img/desktop/image-hero.jpg);
+    color: hsl(0, 0%, 100%);
+  }
+  #bg-hero {
+    background-image: url("../assets/img/desktop/image-hero.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
-}
-.container {
+    background-size: cover;
+  }
+  .container {
     max-width: 100rem;
-}
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10rem;
+  }
+  .main-nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+  }
+  .main-nav li {
+    position: relative;
+  }
+  .main-nav a {
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+  .main-nav a:hover {
+      color: #fff;
+  }
+  .main-nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    bottom: -3px;
+    background-color: orange;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 1s ease;
+  }
+  .main-nav a:hover::before {
+    transform: scaleX(1);
+  }
+
+ /*  //main */
