@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-text {
+    width: 25rem;
+    font-size: 2.2rem;
+    padding: 2rem;
+    transform: translateY(20vh);
+    line-height: 1.5;
+  }

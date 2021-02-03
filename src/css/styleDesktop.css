@@ -1,0 +1,10 @@
+* {
+    background-origin: padding-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav {
+    display: flex;
+    width: 60%;
+  }
