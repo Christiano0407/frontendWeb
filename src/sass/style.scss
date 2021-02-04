@@ -7,7 +7,7 @@ html {
 }
 body {
     margin: 0;
-    padding: 0;
+    padding: 3rem;
     background-color: #101010;
     color: #fff;
     font-family: sans-serif;
@@ -15,15 +15,68 @@ body {
     line-height: 1.3;
 }
 a, a:visited {
-    color: #fff;
+   /*  color: #fff; */
     text-decoration: none;
 }
+img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
 .card {
- background: #fff;
- border-radius: 10px;
- color: #101010;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 1fr auto;
+    background: #fff;
+    border-radius: 10px;
+    color: #101010;
     
     &__image {
-        background-image: url(../assets/img/mobile/image-hero.jpg);
+        background-image: url(../assets/img/mobile/image-interactive.jpg);
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
+
+    &__content {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+        padding: 1.5rem;
+    }
+
+    &__title {
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        line-height: 1.1;
+    }
+
+    &__description {
+        font-size: 1rem;
+        line-height: 1.5;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+    }
+
+    &__date {
+       grid-column: 1 / 2;
+       grid-row: 3 / 4;
+       padding-left: 1.5rem;
+    }
+
+    &__readTime {
+       grid-column: 2 / 3;
+       grid-row: 3 / 4;
+       padding-right: 1.5rem;
+    }
+
+    &__date, &__readTime {
+        font-size: 0.9rem;
+        line-height: 1;
+        padding-bottom: 1.5rem;
+    }
+
 }
