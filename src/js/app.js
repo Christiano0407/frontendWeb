@@ -1,4 +1,4 @@
-/* // get our elements
+ // get our elements
 const slider = document.querySelector('.slider-container'),
   slides = Array.from(document.querySelectorAll('.slide'))
 
@@ -87,4 +87,4 @@ function setPositionByIndex() {
 
 function setSliderPosition() {
   slider.style.transform = `translateX(${currentTranslate}px)`
-} */
+} 
