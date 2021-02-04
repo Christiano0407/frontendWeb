@@ -1,0 +1,39 @@
+:root {
+    --shadow:rgba(0,0,0,0.8);
+    --color-One: hsl(0, 0%, 100%);
+    --color-Two: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider-container {
+    height: 100vh;
+    display: inline-flex;
+    overflow: hidden;
+    scrollbar-width: none;
+    will-change: transform;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+    cursor: grab;
+}
